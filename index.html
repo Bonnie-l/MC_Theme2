@@ -1,0 +1,227 @@
+<!--Bonnie-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Website Theme4</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Company Logo">
+        </div>
+        <div class="header-buttons">
+            <a href="#appointment" class="btn">Request Appointment</a>
+            <a href="#login" class="btn login-btn">
+                <i class="far fa-user"></i>
+                <span>Log in</span>
+            </a>
+            <button class="menu-btn">
+                <div class="menu-icon">
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                </div>
+                <span>MENU</span>
+            </button>
+            <nav class="dropdown-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--image section-->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Primary Care</h1>
+            <p>Your health is our priority</p>
+        </div>
+        <img src="Images/HomePageImage.jpg" alt="Healthcare Hero Image" class="hero-image">
+    </section>
+    <!-- Add this new introduction section -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Welcome to Our Medical Center</h2>
+                <p class="intro-text">Write a brief introduction about our medical center here.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Add after the intro section -->
+    <section class="services-grid">
+        <div class="container">
+            <div class="services-wrapper">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <img src="images/Phone-icon.jpg" alt="Medical Services">
+                    <div class="service-content">
+                        <h3>Call us</h3>
+                        <p>508-432-5233</p>
+                        <a href="#services" class="card-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <img src="images/Appointment-icon.png" alt="Medical Services">
+                    <div class="service-content">
+                        <h3>Make an Appointment</h3>
+                        <p>We open Monday to Thursday from 9:00 AM to 6:00 PM</p>
+                        <a href="#services" class="card-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <img src="images/NewPatient-icon.png" alt="Your Visit">
+                    <div class="service-content">
+                        <h3>New Patient</h3>
+                        <p>We accept new patients</p>
+                        <a href="#visit" class="card-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <img src="images/Map-icon.png" alt="Maps and Directions">
+                    <div class="service-content">
+                        <h3>Maps and Directions</h3>
+                        <p>253 Pleasant Lake Ave,<br> Harwich, MA 02645</p>
+                        <a href="#directions" class="card-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="service-card">
+                    <img src="images/PatientPortal.png" alt="MyChart">
+                    <div class="service-content">
+                        <h3>Patient Portal</h3>
+                        <p>Schedule appointments, view test results and more.</p>
+                        <a href="#mychart" class="card-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Service Card 6 -->
+                <div class="service-card">
+                    <img src="images/insurance-card.png" alt="MyChart">
+                    <div class="service-content">
+                        <h3>Insurance</h3>
+                        <p>We accept most insurance plans</p>
+                        <a href="#insurance" class="card-link">
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Add after the services-grid section -->
+    <section class="find-doctor">
+        <div class="container">
+            <div class="find-doctor-content">
+                <div class="find-doctor-text">
+                    <h2>Find A Doctor</h2>
+                    <p>We have a team of experienced doctors who are here to provide you with the care you need.</p>
+                </div>
+                <div class="find-doctor-button">
+                    <a href="#search" class="search-btn">
+                        Search for a provider
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  google reviews section -->
+    <section class="reviews">
+        <div class="reviews-container">
+            <div class="reviews-header">
+                <h2>What our patients say about us</h2>
+                <div class="rating-box">
+                    <div class="rating-score">4.8 / 5</div>
+                    <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                    <div class="rating-count">Based on 50+ Google Reviews</div>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="Images/google-review.png" alt="Google Review" class="google-icon">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Extract from google review"</p>
+                    <div class="reviewer">
+                        <p class="reviewer-name">Name</p>
+                        <p class="review-date">2 weeks ago</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="Images/google-review.png" alt="Google Review" class="google-icon">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Extract from google review"</p>
+                    <div class="reviewer">
+                        <p class="reviewer-name">Name</p>
+                        <p class="review-date">1 month ago</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="Images/google-review.png" alt="Google Review" class="google-icon">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Extract from google review"</p>
+                    <div class="reviewer">
+                        <p class="reviewer-name">Name</p>
+                        <p class="review-date">1 month ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--java script-->
+    <script src="js/script.js"></script>
+    <!-- Add before closing body tag -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                    <!-- Social Media -->
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                
+                <div class="footer-info">
+                    <p>&copy; 2024 Pleasant Lake Medical Center. All rights reserved.</p>
+                </div>
+                <div class="footer-buttons">
+                    <a href="#contact" class="footer-btn">CONTACT US</a>
+                    <a href="#careers" class="footer-btn">JOIN OUR TEAM</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
